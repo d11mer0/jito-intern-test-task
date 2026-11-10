@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <form action="/submit" method="post">
+    <label for="username">Ім'я</label>
+    <input id="username" name="username" value="Dmytro" required>
+    <input type="checkbox" name="active" checked>
+    <input type="text" placeholder="" title="a > b">
+    <button type="submit">Надіслати</button>
+
+    <select name="role">
+      <option value="user">Користувач
+      <option value="admin">Адміністратор
+    </select>
+
+    <textarea name="message">
+      Перший рядок
+        Другий рядок
+    </textarea>
+  </form>
+
+  <table>
+    <thead>
+      <tr><th>Назва<th>Кількість
+    </thead>
+    <tbody>
+      <tr><td>Яблука<td>3
+      <tr><td>Груші<td>5
+    </tbody>
+  </table>
+</body>
+</html>
